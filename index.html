@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<title> Astro </title>
 </head>
 <body>
-
-	<div class="row">
+	  <nav>
+	    <div class="nav-wrapper">
+	      <a href="#" class="brand-logo">Logo</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="#yo">Sobre mí</a></li>
+	        <li><a href="#proyectos">Proyectos</a></li>
+	        <li><a href="#contacto">Contacto</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	<div id="yo" class="row">
 		<div class="col s12 m12 fondo valign-wrapper">
 			<div class="col s12 m12">
 					<div class=" col s12 m4 img-principal ">
@@ -24,6 +34,29 @@
 			</div>	
 		</div>
 	</div>
+	<!-- CONTACTO -->
+	<div id="contacto">
+		<h2 class="center-align"> Trabajemos juntos</h2>
+		<div class="row center-align">
+			<div class="col s4 m4">
+				<a href="http://www.google.com"><i class="large material-icons">insert_chart</i></a>
+			</div>
+			<div class="col s4 m4">
+				<a href="http://www.github.com"><i class="large material-icons">ilocal_phone</i></a>
+			</div>
+			<div class="col s4 m4">
+				<a href="http://www.linkedin.com"><i class="large material-icons">email</i></a>
+			</div>
+		</div>
+	</div>
+
+	 <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container center-align">
+            	Astro
+            </div>
+        </div>
+    </footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
