@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-image: url(../assets/img/astro3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-principal{
+    background-image: url(../assets/img/astro6.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    height: 50vh;
+    align-content: center
+}
+
+.texto-principal{
+    height: 50vh;
+    font-size: 1.3em;
+}
+
+.texto{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+@media screen and (max-width: 780px){
+    .texto{
+        font-size: 0.7em;
+        color: black;
+        text-shadow: 0px 0px wheat;
+        background: white
+
+    }
+}
